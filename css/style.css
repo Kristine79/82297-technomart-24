@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 1200px;
+  font-family: "Cuprum-Regular", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #283136;
+  background-color: #ffffff;
+}
+
+@font-face {
+  font-family: "Cuprum Regular";
+  src: url("../fonts/cuprum.woff") format("woff");
+  src: url("../fonts/cuprum.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cuprum Bold";
+  src: url("../fonts/cuprumbold.woff") format("woff");
+  src: url("../fonts/cuprumbold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cuprum Italic";
+  src: url("../fonts/cuprumitalic.woff") format("woff");
+  src: url("../fonts/cuprumitalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1160px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
+}
+
+.logo {
+display: block;
+font-family: "Cuprum Bold";
+background-color: #ee3643;
+text-transform: uppercase;
+font-size: 20px;
+padding-top: 13px;
+padding-bottom: 15px;
+}
+
+.checkout {
+  background-color: #63a63e;
+  padding-top: 13px;
+  padding-bottom: 14px;
+}
+
+.logo-wrapper {
+  display: flex;
+
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  list-style: none;
+  font-family: "Cuprum Regular";
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 18px;
+  margin: 0;
+}
+
+.top-menu-wrapper{
+  background-color: #293449;
+
+  margin: 0;
+  padding: 0;
+}
+
+.header-background {
+  background-color: #f4f7f9;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 15px;
+  padding-bottom: 44px;
+}
+
+
+.menu-wrapper {
+  padding-bottom: 60px;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background-color: #32425c;
+  color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.slogan {
+  font-family: "Cuprum Italic";
+  font-size: 16px;
+  line-height: 23px;
+  color: #ee3643;
+  width: 196px;
+  padding-left: 55px;
+  margin: 0;
+}
+
+.phone {
+  font-family: "Cuprum Bold";
+  font-size: 21px;
+  line-height: 21px;
+  color: #ee3643;
+  border: solid 3px white;
+  padding-top: 13px;
+  padding-bottom: 11px;
+  margin: 0;
+  text-align: center;
+}
+
+.address {
+  font-family: "Cuprum";
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425c;
+  margin: 0;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+
+}
+
+.login {
+  display: block;
+background-color: #ffffff;
+padding-bottom: 15px;
+padding-top: 14px;
+padding-left: 20px;
+padding-right: 16px;
+margin-left: 10px;
+color: #000000;
+font-family: "Cuprum";
+font-size: 21px;
+line-height: 21px;
+}
+
