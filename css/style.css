@@ -500,28 +500,23 @@ a:before, a:after, a > span:before, a > span:after {
 
 
 .rect1 {
-background-color: #ffbf47;
+  background-color: #ffbf47;
 }
 
 .rect2 {
-background-color: #3bbce3;
+  background-color: #3bbce3;
 }
 
 .rect3 {
-background-color: #dc91d8;
+  background-color: #dc91d8;
 }
 
-  .rect5, .rect6 {
-
-background-color: green;
-
-    border: 1px solid black;
+.rect5, .rect6 {
+  background-color: green;
 }
 
 .rect4 {
-
-background-color: blue;
-
+  background-color: blue;
 }
 
 
@@ -532,15 +527,14 @@ background-color: blue;
 }
 
 .rect1:before {
-content: "";
-    position: absolute;
-    top: 30%;
-    left: 210px;
-    margin-top: -8px;
-    width: 160px;
-    height: 180px;
-    background-image: url(../img/iconbasket.png);
-    background-repeat: no-repeat;
-    background-position: 0 0;
-
+  content: "";
+  position: absolute;
+  top: 30%;
+  left: 210px;
+  margin-top: -8px;
+  width: 160px;
+  height: 180px;
+  background-image: url(../img/iconbasket.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
