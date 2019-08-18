@@ -490,7 +490,7 @@ a:before, a:after, a > span:before, a > span:after {
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 20px;
     background-color: none;
     margin-bottom:100px;
 }
@@ -511,12 +511,16 @@ a:before, a:after, a > span:before, a > span:after {
   background-color: #dc91d8;
 }
 
-.rect5, .rect6 {
-  background-color: green;
+.rect5 {
+  background-color: #63a63e;
 }
 
 .rect4 {
   background-color: blue;
+}
+
+.rect6 {
+  background-color: #ffc047;
 }
 
 
