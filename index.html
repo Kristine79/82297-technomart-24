@@ -19,12 +19,41 @@
 </head>
 <body>
 
+
+<script src="js/jquery-3.4.1.js"></script>
+<script type="text/javascript">
+
+  $(".mail-btn").on("click touchstart", function () {
+    $(this).addClass("fly");
+    that = this
+    setTimeout(function() {
+        $(that).removeClass("fly");
+    }, 5400)
+});
+</script>
+
+
 <header>
   <div class="top-menu-wrapper">
     <div class="container">
         <ul class="top-menu">
-          <li class="logo">Техномарт</li>
-          <li> Поиск:</li>
+          <li class="logo">
+      <div class="smoke">
+      <ul>
+        <li>Т</li>
+        <li>Е</li>
+        <li>Х</li>
+        <li>Н</li>
+        <li>О</li>
+        <li>М</li>
+        <li>А</li>
+        <li>Р</li>
+        <li>Т</li>
+      </ul>
+    </div>
+
+          </li>
+          <li><a class="effect-1" href=""> Поиск:</a></li>
           <li> Закладки: 0</li>
           <li> Корзина: 0</li>
           <li class="checkout"> Оформить заказ</li>
@@ -37,10 +66,10 @@
         <section class="main-header">
 
 
-            <p class="slogan">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+            <p class="slogan target">Интернет-магазин строительных материалов и инструментов для ремонта</p>
 
             <div class="address-wrapper">
-            <p class="phone">+7 (812) 555-05-55</p>
+            <p class="phone target">+7 (812) 555-05-55</p>
             <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
             </div>
 
@@ -52,32 +81,59 @@
             </div>
 
     </div>
-        <nav class="menu-wrapper">
+        <nav class="menu-wrapper cl-effect-5">
           <div class="container">
           <ul class="main-menu">
-            <li> Главная</li>
-            <li> Компания</li>
-            <li> Каталог</li>
-            <li> Новости</li>
-            <li> Спецпредложения</li>
-            <li> Доставка</li>
-            <li> Контакты</li>
+            <li><a href="#" class="effectlink"><span data-hover="Ссылка 1">Главная</span></a>
+            <li><a class="effectlink" href="#"><span data-hover="Ссылка 1"> Компания</a></span></li>
+            <li><a class="effectlink" href="#"> <span data-hover="Ссылка 1"> Каталог</a></span></li>
+            <li><a class="effectlink" href="#"> <span data-hover="Ссылка 1"> Новости</span></li>
+            <li><a class="effectlink" href="#"> <span data-hover="Ссылка 1"> Спецпредложения</span></li>
+            <li><a class="effectlink" href="#"><span data-hover="Ссылка 1"> Доставка</span></li>
+            <li class="mail-btn"> <a href="#">Контакты</a></li>
           </ul>
         </div>
         </nav>
-
-
-
-
-
   </section>
-
-
-
   </header>
 
+  <div class="container">
+<div class="grid">
+
+  <div class="rect1">
+    <p>Материалы</p>
+    <button>На любой вкус</button>
+  </div>
 
 
 
+  <div class="rect2">
+    <p>Инструмент</p>
+    <button>На все случаи</button>
+  </div>
+  <div class="rect3">
+    <p>Техника</p>
+    <button>Для стройки</button>
+  </div>
+  <div class="span-col-2 span-row-2 rect4">
+
+<img src="img/manslide.jpg">
+  </div>
+  <div  class="rect5">Lorem ipsum dolor sit amet, idque mollis consetetur at vis, eam at sale atqui. Sapientem qualisque reprehendunt eu his, ne sit oratio accusam. In has ocurreret vulputate, etiam sadipscing ut per. 5</div>
+  <div  class="rect6">Lorem ipsum dolor sit amet, idque mollis consetetur at vis, eam at sale atqui. Sapientem qualisque reprehendunt eu his, ne sit oratio accusam. In has ocurreret vulputate, etiam sadipscing ut per. 6</div>
+
+</div>
+</div>
+
+
+
+
+
+
+<!-- begin Up-Down button -->
+<a class="up_down_btn" title="Наверх">&uarr;</a>
+<!-- end Up-Down button -->
+
+<script type="text/javascript" src="js/scrolltop.js"></script>
 
 </body>
